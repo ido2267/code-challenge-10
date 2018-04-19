@@ -1,0 +1,132 @@
+h1{
+  
+  text-align: center;
+  color : white;
+  background: teal;
+  padding 5px;
+  border-radius: 10px;
+}
+h2{
+  
+    text-align: center;
+  color : white;
+  background: teal;
+   border-radius: 2px;
+   
+}
+	
+	body{
+	  background: linear-gr5adient(to bottom right, white,lightgray);
+	  padding: 20px;
+	  font-family: Verdana;
+	    }
+
+
+.column1 {
+  width: 48%;
+  float:left;
+}
+.column2 {
+  width: 48%;
+  float:right;
+}
+
+img{
+  
+  max-width:100%;
+}
+.photo{
+  
+  box-shadow: 4px 4px 4px gray;
+  transform: rotate(2deg);
+}
+
+a{
+  font-family: Aharoni;
+   text-align: left;
+  color : black;
+  text-decoration-line:initial;
+ }
+
+.item
+{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 3px  dashed teal;
+ }
+ 
+ 
+ 
+#cheerup{
+   font-size: 30px;
+  font-family: Impact; 
+ text-align: center;
+  background:  linear-gradient(#708090 ,rgb(240,255,255),beige);  
+  padding : 20px;
+} 
+ 
+ #baseball{
+   width: 100px;
+ }
+ 
+ #greenrobot{
+   
+   height : 100px;
+   position: absolute;
+   left -200px;
+   animation: slide 10s infinite;
+ }
+ #SpaceInvader1
+ {   height : 100px;
+   position: absolute;
+   right :  100px;
+   animation: glide 7s infinite;
+ }
+  #SpaceInvader2
+ {   height : 100px;
+   position: absolute;
+   right :  250px;
+   animation: glide 7s infinite;
+ }
+  #SpaceInvader3
+ {   height : 100px;
+   position: absolute;
+   right :  550px;
+   animation: glide 7s infinite;
+ }
+   #SpaceInvader4
+ {   height : 100px;
+   position: absolute;
+   right :  400px;
+   animation: glide 7s infinite;
+ }
+ @keyframes slide{
+   
+  0%{left: -200px;}
+  50%{left: 0PX;}
+  100%{left: -200;}
+ }
+ 
+ @keyframes glide{
+ 0%{top: -20%;}
+   33%{top: 33%;}
+  66%{top: 66%;}
+ 100%{top: 120%;}
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
